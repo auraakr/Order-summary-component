@@ -14,3 +14,4 @@ In this challenge, I'm just using HTML and pure CSS.
 
 # Pages
 
+ https://auraakr.github.io/Order-summary-component/

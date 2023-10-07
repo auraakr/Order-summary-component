@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--pale-blue);
+}
+
+.center {
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    border-radius: 20px;    
+    box-shadow: rgba(163, 163, 163, 0.671) 0px 8px 24px;
+    overflow: hidden;
+}
+
+.container {
+    padding: 15px 50px;
+}
+
+.title {
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.sub {
+    font-size: 16px;
+    color: var(--desaturated-blue);
+    padding: 15px 10px;
+    font-weight: 500;
+}
+
+.img-hero {
+    width: 100%;
+}
+
+.btn-annual {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 10px 15px;
+    border: none;
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.icon-music {
+    flex: none;
+}
+
+.bold {
+    font-weight: 700;
+    color: black;
+}
+
+.price {
+    color: var(--desaturated-blue);
+    font-weight: 500;
+}
+
+.annual {
+    flex: 1 1 auto;
+    width: 50%;
+    text-align: left;
+}
+
+.btn-change {
+    flex: 1 1 auto;
+    width: 25%;
+    color: var(--bright-blue);
+    font-weight: 700;
+}
+
+.btn-change:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn.payment {
+    background-color: var(--bright-blue);
+    color: white;
+    font-weight: 700;
+    box-shadow: rgba(136, 79, 209, 0.671) 0px 8px 24px;
+}
+.btn.payment:hover {
+    opacity: 0.8;
+}
+
+.btn.cancel {
+    background-color: inherit;
+    color: var(--bright-blue);
+    font-weight: 700;
+}
+
+.btn.cancel:hover {
+    color: black;
+    font-weight: 900;
+}
